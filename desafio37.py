@@ -4,6 +4,7 @@ escolha = int(input('''Qual das tres opçoes:
 [ 1 ] - Binario
 [ 2 ] - Octal
 [ 3 ] - Hexadecimal
+[ 4 ] - Hexadecimal
 Qual sua escolha? '''))
 binario = bin(n)[2:]
 octal = oct(n)[2:]
