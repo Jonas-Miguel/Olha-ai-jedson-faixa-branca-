@@ -1,8 +1,13 @@
 from datetime import date
+sexo = str(input('Qual seu sexo? [M/F] ')).strip().upper()
 atual = date.today().year
 nasc = int(input('Digite o ano de nascimento: '))
 idade = atual - nasc
-if idade == 18:
+if sexo == 'F' :
+    print('Você nao precisa se alistar no exercito')
+elif sexo == 'M' :
+    print('Certo, vamos continuar')
+elif idade == 18:
     print('Você deve se alistar imediatamente! ')
 elif idade < 18:
     saldo = 18 - idade
