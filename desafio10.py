@@ -1,0 +1,2 @@
+n1 = float(input('Me diga quantos reais voce tem para que eu possa ver quantos dolares podemos comprar? '))
+print('Levando em consideração que o dolar esta 3,27, com seus {}, você pode comprar {} Dolares!'.format(n1,n1/3,27))

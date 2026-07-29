@@ -1,0 +1,7 @@
+frase = input('Digite uma frase: ')
+c = frase.count('a')
+p = frase.find('a')
+f = frase.rfind('a')
+print ('A letra, a, nessa frase aparece {} vezes'.format(c))
+print ('Ela aparece pela primeira vez na posição {}'.format(p))
+print ('E sua posição final é {}'.format(f))

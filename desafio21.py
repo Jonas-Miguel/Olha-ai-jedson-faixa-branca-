@@ -1,0 +1,2 @@
+import pysound
+pysound.init()

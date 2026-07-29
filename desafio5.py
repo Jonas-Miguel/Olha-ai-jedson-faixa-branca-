@@ -1,0 +1,5 @@
+n = int(input('\033[4;35mDigite um numero inteiro!\033[m '))
+#print('\033[4;35mA soma de \033[33m{n}\033[m \033[4;33mé\033[m \033[33m{n+n}\033[m')
+print ('\033[4;35mO antecessor de\033[m \033[33m{}\033[m \033[4;35mé\033[m \033[33m{}\033[m, \033[4;35me o sucessor dele é\033[m \033[33m{}\033[m'.format(n, n-1, n+1))
+n1 = int(input('\033[4;35mDigite outro numero!\033[m '))
+print (' \033[4;35mO dobro de\033[m \033[33m{}\033[m \033[4;35mé\033[m \033[33m{}\033[m, \033[4;35mo triplo\033[m \033[33m{}\033[m, \033[4;35me sua raiz quadrada é\033[m \033[33m{}\033[m'.format(n1, n1*2, n1*3, n1**(1/2)))
