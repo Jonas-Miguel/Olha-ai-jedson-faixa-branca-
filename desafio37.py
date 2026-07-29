@@ -14,3 +14,17 @@ elif escolha == '2':
     print('A base de converção que você escolheu foi octal, o numero {} transformado em octal é {}'.format(n,octal))
 elif escolha == '3':
     print('A base de converção que você escolheu foi hexadecimal, o numero {} transformado em hexadecimal é {}'.format(n,hexadecimal))
+else:
+    print('Você é um boca aberta')
+else:
+    print('Você é um boca aberta')
+else:
+    print('Você é um boca aberta')
+else:
+    print('Você é um boca aberta')
+else:
+    print('Você é um boca aberta')
+else:
+    print('Você é um boca aberta')
+else:
+    print('Você é um boca aberta')
