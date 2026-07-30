@@ -5,5 +5,7 @@ if (r1 == r2) and (r1 == r3)  and (r2 == r3):
     print('As retas informadas formam um triangulo, EQUILATERO')
 elif (r1 == r2 != r3) and (r1 == r3 != r2)  and (r2 == r3 != r1 ):
     print('As retas indicadas formam um triangulo ISÓCELES')
-else:
-    print('As retas indicadas forman um triangulo ESCALENO')
+elif (r1 + r2 ) > r3 or (r1 + r3 ) > r2 or (r2 + r3 ) > r1 :
+    print('As retas indicadas NÃO PODEM forman um triangulo ')
+elif r1 != r2 != r3 != r1:
+    print('As retas informadas forman um triangulo ESCALENO')
